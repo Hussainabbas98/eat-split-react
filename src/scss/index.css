@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Kanit:ital,wght@0,400;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Iso&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+.app {
+  background: #1c2321;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.app h1 {
+  font-family: "Rubik Iso", cursive;
+  margin-top: 50px;
+}
+.app h1 b {
+  font-size: 100px;
+  color: #0047ab;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7d98a1;
+  border-radius: 10px;
+  width: 60%;
+  height: auto;
+  margin: 50px 0px;
+}
+.parent .mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+.parent .mainContainer .title {
+  text-align: center;
+  font-family: "Rubik Iso", cursive;
+  font-size: 40px;
+  width: 100%;
+  margin-top: 20px;
+}
+.parent .mainContainer .cardEmpty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 5px;
+  background: #1c2321;
+  margin: 90px 0px;
+}
+.parent .mainContainer .cardEmpty p {
+  padding: 10px;
+  font-size: 30px;
+}
+.parent .mainContainer .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  border-radius: 5px;
+  background: #1c2321;
+  margin: 20px 0px;
+}
+.parent .mainContainer .card .detail {
+  display: flex;
+  flex-direction: column;
+}
+.parent .mainContainer .card .detail h4 {
+  padding: 10px;
+  color: #0047ab;
+}
+.parent .mainContainer .card .detail h4 span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.parent .mainContainer .card .detail p {
+  padding: 10px;
+  color: #0047ab;
+}
+.parent .mainContainer .card .detail p span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.parent .mainContainer .card button {
+  width: 35px;
+  height: 35px;
+  margin: 0px 10px;
+  font-weight: 900;
+  color: rgb(219, 0, 0);
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+}
+.parent .mainContainer .buttons {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.parent .mainContainer .buttons .add {
+  font-weight: 600;
+  color: #1c2321;
+  padding: 10px;
+  background: rgb(0, 179, 0);
+  border: none;
+}
+.parent .mainContainer .buttons .reset {
+  font-weight: 600;
+  color: #1c2321;
+  padding: 10px;
+  background: goldenrod;
+  border: none;
+}
+.parent .modalParent {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+.parent .modalParent form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60%;
+  width: 40%;
+  justify-content: space-evenly;
+  background-color: #797979;
+  border-radius: 30px;
+}
+.parent .modalParent form .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  width: 100%;
+}
+.parent .modalParent form .css-dmmspl-MuiFormGroup-root {
+  display: flex;
+}
+.parent .modalParent form .css-1m9pwf3 {
+  background: #000;
+}
+.parent .modalParent form .css-ahj2mt-MuiTypography-root {
+  color: #1c2321;
+}/*# sourceMappingURL=index.css.map */
